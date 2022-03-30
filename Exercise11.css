@@ -1,0 +1,114 @@
+html{
+    background-image: linear-gradient(to bottom, #0e0e0f, #0b0b0c, #080708, #040404, #000000);
+    font-family: tahoma;
+}
+
+.header{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1400px;
+    border: 2px solid #E91D6D;
+    padding: 10px; 
+}
+
+#footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1400px;
+    border: 2px solid #E91D6D;
+    padding: 10px; 
+}
+
+.icon{
+    border: 1px solid #E91D6D;
+    padding: 3px;
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 8px;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #9c07c6, #b900b3, #cd00a0, #da008f, #e32480);
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 120px;
+    text-decoration:none;
+}
+
+button{
+    font-family: tahoma;
+    font-size:20px;
+    font-weight:600;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #9c07c6, #b900b3, #cd00a0, #da008f, #e32480);
+    cursor: pointer;
+}
+
+
+#content{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1400px;
+    border: 2px solid #E91D6D;
+    padding: 10px
+}
+
+#movie{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a39ea064028185.5ac4b8009a36a.jpg);
+    height: 600px;
+    width: 1180px;
+    padding: 10px;
+    margin-left: 100px;
+    border: 2px solid #E91D6D;
+}
+
+#food{
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F06%2F15%2Fmozzarella-pizza-margherita-FT-RECIPE0621.jpg&q=60);
+    height: 600px;
+    width: 1180px;
+    padding: 10px;
+    margin-left: 100px;
+    border: 2px solid #E91D6D;
+}
+
+#game{
+    background-image: url(https://i.ytimg.com/vi/wD1Rac2AWkQ/maxresdefault.jpg);
+    height: 600px;
+    width: 1180px;
+    padding: 10px;
+    margin-left: 100px;
+    border: 2px solid #E91D6D;
+}
+
+p{
+    font-size:20px;
+    color: white;
+}
+
+h1{
+    background-image: linear-gradient(to bottom, #9c07c6, #b900b3, #cd00a0, #da008f, #e32480);
+    color:transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+}
+
+h3{
+    background-image: linear-gradient(to bottom, #9c07c6, #b900b3, #cd00a0, #da008f, #e32480);
+    color:transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+}
