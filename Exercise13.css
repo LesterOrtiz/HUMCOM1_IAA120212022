@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 20px;
+}
+
+.header{
+    border: 4px solid white;
+    background-color: #c0c0c0;
+    padding: 35px;
+    
+}
+
+.body{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 4px solid white;
+    background-color: #808080;
+    padding: 35px;
+}
+
+.footer{
+    border:4px solid white;
+    background-color: #d3d3d3;
+    padding: 30px;
+}
+
+.section{
+    border: 4px solid white;
+    background-color: #c0c0c0;
+    padding: 35px;
+}
+
+
+@media only screen and (min-width: 320px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .col-s-1{width: 8%;}
+    .col-s-2{width: 16%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33%;}
+    .col-s-5{width: 41%;}
+    .col-s-6{width: 50%;}
+    .col-s-7{width: 58%;}
+    .col-s-8{width: 66%;}
+    .col-s-9{width: 75%;}
+    .col-s-10{width: 83%;}
+    .col-s-11{width: 91%;}
+    .col-s-12{width: 100%;}
+}
+
+@media only screen and (min-width: 1024px){
+    .col-s-1{width: 8%;}
+    .col-s-2{width: 16%;}
+    .col-s-3{width: 25%;}
+    .col-s-4{width: 33%;}
+    .col-s-5{width: 41%;}
+    .col-s-6{width: 50%;}
+    .col-s-7{width: 58%;}
+    .col-s-8{width: 66%;}
+    .col-s-9{width: 75%;}
+    .col-s-10{width: 83%;}
+    .col-s-11{width: 91%;}
+    .col-s-12{width: 100%;}
+}
+
