@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Js">
+    <meta name="Author" content="Lester Ortiz">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Exercise 15</title>
+</head>
+<body>
+
+        <div class="contain" style="padding: 45px; font-family: monospace">
+        <h1 id="1"></h1>
+            <h2 id="2"></h2>
+
+            <form>
+                <beside> FIRST NAME </beside> <input id = "firstname" size="90px" placeholder="First Name">
+            </form>
+
+        <br>
+            <form>
+                <beside> AGE </beside> <input id = "Age" size="90px" placeholder="Age">
+            </form>
+
+        <h2 id="3"></h2>
+            <form>
+                <beside> PHONE NUMBER </beside> <input id = "Phone Number" size="90px" placeholder="Phone Number">
+            </form>
+        <br>
+            <form>
+                <beside> EMAIL ADDRESS </beside> <input id = "Email Address" size="90px" placeholder="Email Address">
+            </form>
+        <br>
+            <form>
+                <beside> MAILING ADDRESS </beside> <input id = "Mailing Address" size="90px" placeholder="Mailing Address">
+            </form>
+        <h2 id="4"></h2>
+            <form>
+                <beside> PROGRAM </beside> <input id = "Program" size="90px" placeholder="Program">
+            </form>
+        <br>
+            <form>
+                <beside> ID NUMBER </beside> <input id = "ID Number" size="90px" placeholder="ID Number">
+            </form>
+        <br>
+            <form>
+                <beside> YEAR LEVEL </beside> <input id = "Year Level" size="90px" placeholder="Year Level">
+            </form>
+        <br>
+            <form>
+                <beside> SECTION </beside> <input id = "Section" size="90px" placeholder="Section">
+            </form>
+        <br>
+            <hr>
+        </div>
+        
+        <script type="text/javascript" src="Exercise15.js">
+            function validateform(){
+                var a = document.forms["MyForm"]["FName"].value;
+                if(a ==""){
+                    alert("NAME SECTION MUST BE FILLED OUT");
+                    return false;
+                }
+            }
+        </script>
+
+            <form name="MyForm" action="/action_page_post.php" onsubmit="returnvalidateForm()" method="post">
+                <input type="submit" id="alert">
+            </form>
+            
+</body>
+</html>
